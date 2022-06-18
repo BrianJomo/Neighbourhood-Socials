@@ -101,3 +101,4 @@ To explore the features of this neighbourhood website application navigate to th
 
 * Django documentation.
 
+## License
