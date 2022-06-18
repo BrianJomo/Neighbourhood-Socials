@@ -93,3 +93,11 @@ To explore the features of this neighbourhood website application navigate to th
 
 * Postgresql - Which was used as a database for data storage.
 
+## Reference
+
+* PEP 8 – Style Guide for Python.
+
+* Materialize CSS.
+
+* Django documentation.
+
