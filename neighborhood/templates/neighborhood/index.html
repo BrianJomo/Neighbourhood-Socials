@@ -1,0 +1,24 @@
+{% extends 'neighborhood/base.html' %}
+{% load static %}
+{% load bootstrap5 %}
+
+
+{% block content %}
+<main>
+    <header>
+        <div id="headerContent">
+            <div class="container">
+                <div id="headerHeading">The Neighborhood</div>
+                <div id="headerSiteIntro" style="font-size: 30PX;">Welcome to Hoodster! Be in the loop about everything happening in the neighbourhood <br> Create a profile to get started</div>
+                <div id="headerCTA">
+                    <a href="{% url 'register'%}"><button type="button" class="btn btn-primary" id="signUpButton">Sign
+                            Up</button></a>
+                    <a href="{% url 'login'%}"><button type="button" class="btn btn-outline-dark"
+                            id="signInButton">Sign In</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+</main>
+{%endblock%}
