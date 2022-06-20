@@ -52,6 +52,9 @@ DB_HOST='127.0.0.1'
 MODE='dev'
 ALLOWED_HOSTS='.localhost', '.herokuapp.com', '.127.0.0.1'
 DISABLE_COLLECTSTATIC=1
+CLOUD_NAME= '*****'
+API_KEY='****'
+API_SECRET='****'
 ```
 
 Then run the following commands in the terminal then run the manage.py file in order to run the web application.
